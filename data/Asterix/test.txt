@@ -1,0 +1,1280 @@
+
+
+Asterix record: 1 
+Len: 105
+CRC: 00000000
+Category: 56 ()
+Hexdata: None
+
+Asterix record: 2 
+Len: 15
+CRC: 31FD702D
+Category: 1 (Transmission of Monoroadar Data)
+Hexdata: 23380058007033FE5D140054FFC185
+Item: I040 (Measured Position in Polar Coordinates)
+	RHO (RHO): 0.6875 
+Item: I040 (Measured Position in Polar Coordinates)
+	THETA (THETA): 0.615234375 
+Item: I141 (Truncated Time of Day)
+	Time (Time): 103.984375 
+Item: I131 (Received Power)
+	Power (Power): 93 
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	spare (spares bit set to 0): 1 
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QA4 (QA4): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QA2 (QA2): 1 Low quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QA1 (QA1): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QB4 (QB4): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QB2 (QB2): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QB1 (QB1): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QC4 (QC4): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QC2 (QC2): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QC1 (QC1): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QD4 (QD4): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QD2 (QD2): 0 High quality pulse
+Item: I080 (Mode-3/A Code Confidence Indicator)
+	QD1 (QD1): 0 High quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	V (V): 0 Code validated
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	G (G): 1 Garbled code
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	spare (spare bits set to 0): 12 
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	ModeC (Mode-C reply in Gray notation): 1279 
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QC1 (QC1): 0 High quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QA1 (QA1): 0 High quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QC2 (QC2): 0 High quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QA2 (QA2): 1 Low quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QC4 (QC4): 1 Low quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QA4 (QA4): 0 High quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QB1 (QB1): 0 High quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QD1 (QD1): 1 Low quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QB2 (QB2): 0 High quality pulse
+Item: I100 (Mode-C Code and Code Confidence Indicator)
+	QD2 (QD2): 1 Low quality pulse
+
+Asterix record: 3 
+Len: 5
+CRC: 861BEF67
+Category: 1 (Transmission of Monoroadar Data)
+Hexdata: 0474658100
+Item: I200 (Calculated Track Velocity in Polar Coordinates)
+	CalcGS (Calculated groundspeed): 6555.34 
+Item: I200 (Calculated Track Velocity in Polar Coordinates)
+	CalcHdg (Calculated heading): 181.40625 
+
+Asterix record: 4 
+Len: 3
+CRC: 00000000
+Category: 1 (Transmission of Monoroadar Data)
+Hexdata: None
+
+Asterix record: 5 
+Len: 27294
+CRC: 00000000
+Category: 0 ()
+Hexdata: None
+
+Asterix record: 6 
+Len: 23825
+CRC: 00000000
+Category: 254 ()
+Hexdata: None
+
+Asterix record: 7 
+Len: 60765
+CRC: 00000000
+Category: 167 ()
+Hexdata: None
+
+Asterix record: 8 
+Len: 40240
+CRC: 00000000
+Category: 0 ()
+Hexdata: None
+
+Asterix record: 9 
+Len: 65521
+CRC: 00000000
+Category: 13 ()
+Hexdata: None
+
+Asterix record: 10 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 11 
+Len: 5
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 12 
+Len: 10
+CRC: 44181E63
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: F8F00032002E002C006A
+Item: I010 (Data Source Identifier)
+	SAC (System Area Code): 240 
+Item: I010 (Data Source Identifier)
+	SIC (System Identification Code): 0 
+Item: I000 (Message Type)
+	type (Message Type): 50 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 0.0 
+Item: I030 (Time of Day)
+	ToD (Time of day): 23552.34375 
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 0.828125 
+
+Asterix record: 13 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 14 
+Len: 4
+CRC: 07C2A4E8
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 62005D00
+Item: I000 (Message Type)
+	type (Message Type): 0 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 130.78125 
+Item: I060 (Station Processing Mode)
+	mode (Mode): 0 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 15 
+Len: 8
+CRC: FA30BACC
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 7800290038002C00
+Item: I000 (Message Type)
+	type (Message Type): 0 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 57.65625 
+Item: I030 (Time of Day)
+	ToD (Time of day): 112.0 
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 88.0 
+
+Asterix record: 16 
+Len: 4
+CRC: F366A487
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 0CF3D77C
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 487.6796875 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 62 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 17 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 18 
+Len: 14
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 19 
+Len: 255
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 20 
+Len: 4
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 21 
+Len: 7
+CRC: C8FA0592
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 94014903000400
+Item: I010 (Data Source Identifier)
+	SAC (System Area Code): 1 
+Item: I010 (Data Source Identifier)
+	SIC (System Identification Code): 73 
+Item: I030 (Time of Day)
+	ToD (Time of day): 1536.03125 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 0 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 22 
+Len: 159
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 23 
+Len: 7
+CRC: 2D412430
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 510100130A3800
+Item: I000 (Message Type)
+	type (Message Type): 19 
+Item: I030 (Time of Day)
+	ToD (Time of day): 5232.0 
+
+Asterix record: 24 
+Len: 7
+CRC: 05B38A2E
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 6600CB33FE5D14
+Item: I000 (Message Type)
+	type (Message Type): 0 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 285.46875 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 25 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 127 
+	fx (Field extension): 0 End of Data Item
+Item: I060 (Station Processing Mode)
+	mode (Mode): 46 
+	fx (Field extension): 1 Extension into next extent
+	mode (Mode): 10 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 25 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 26 
+Len: 5
+CRC: CBAE94B5
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 62FFED8584
+Item: I000 (Message Type)
+	type (Message Type): 255 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 333.28125 
+Item: I060 (Station Processing Mode)
+	mode (Mode): 66 
+	fx (Field extension): 1 Extension into next extent
+	mode (Mode): 66 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 27 
+Len: 7
+CRC: 3741A35E
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 7465411069A580
+Item: I000 (Message Type)
+	type (Message Type): 101 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 91.40625 
+Item: I030 (Time of Day)
+	ToD (Time of day): 8403.2890625 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 64 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 28 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 29 
+Len: 6
+CRC: 6E523DAB
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 6A91AD0167B8
+Item: I000 (Message Type)
+	type (Message Type): 145 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 243.28125 
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 2.8046875 
+Item: I060 (Station Processing Mode)
+	mode (Mode): 92 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 30 
+Len: 11
+CRC: FFAEC5F8
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 5D00113F0002C303A30300
+Item: I000 (Message Type)
+	type (Message Type): 17 
+Item: I030 (Time of Day)
+	ToD (Time of day): 32256.015625 
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 390.0234375 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 81 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 1 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 0 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 31 
+Len: 10
+CRC: 621B94FE
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 0E57FFFF00013FF571BC
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 175.9921875 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 127 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 0 
+	fx (Field extension): 0 End of Data Item
+Item: I060 (Station Processing Mode)
+	mode (Mode): 0 
+	fx (Field extension): 1 Extension into next extent
+	mode (Mode): 31 
+	fx (Field extension): 1 Extension into next extent
+	mode (Mode): 122 
+	fx (Field extension): 1 Extension into next extent
+	mode (Mode): 56 
+	fx (Field extension): 1 Extension into next extent
+	mode (Mode): 94 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 32 
+Len: 2
+CRC: 20FE843C
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 2080
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 180.0 
+
+Asterix record: 33 
+Len: 2
+CRC: 267432C7
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 0414
+Item: I050 (Station Configuration Status)
+	Stat (Status): 10 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 34 
+Len: 160
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 35 
+Len: 174
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 36 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 37 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 38 
+Len: 88
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 39 
+Len: 12
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 40 
+Len: 48
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 41 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 42 
+Len: 20
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 43 
+Len: 9
+CRC: AA58F53F
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 590100190A0A38005C
+Item: I000 (Message Type)
+	type (Message Type): 25 
+Item: I030 (Time of Day)
+	ToD (Time of day): 5140.4375 
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 0.71875 
+
+Asterix record: 44 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 45 
+Len: 15
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 46 
+Len: 12
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 47 
+Len: 469
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 48 
+Len: 9
+CRC: 251DE106
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 45300069A588590100
+Item: I000 (Message Type)
+	type (Message Type): 0 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 52 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 82 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 68 
+	fx (Field extension): 0 End of Data Item
+Item: I090 (Collimation Error)
+	RngE (Range Error): 0.6953125 
+Item: I090 (Collimation Error)
+	AziE (Azimuth Error): 0.02197265625 
+Item: I080 (Warning/Error Conditions)
+	err_value (W/E Condition value): 0 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 49 
+Len: 7
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 50 
+Len: 15
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 51 
+Len: 12
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 52 
+Len: 16
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 53 
+Len: 234
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 54 
+Len: 2
+CRC: DFBC5C2D
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 4001
+Item: I000 (Message Type)
+	type (Message Type): 1 North marker message
+
+Asterix record: 55 
+Len: 8
+CRC: B70E386F
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 66804C8575DF5C60
+Item: I000 (Message Type)
+	type (Message Type): 128 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 106.875 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 66 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 58 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 111 
+	fx (Field extension): 1 Extension into next extent
+	Stat (Status): 46 
+	fx (Field extension): 0 End of Data Item
+Item: I060 (Station Processing Mode)
+	mode (Mode): 48 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 56 
+Len: 5
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 57 
+Len: 4
+CRC: AF54BA2F
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 0C0289C8
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 5.0703125 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 100 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 58 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 59 
+Len: 359
+CRC: 171AD4FE
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 3180000040B5B000003FF40060244024F8D00008000700010010001000030007000800010001A000240069A58859010009500E38005700CB33FE5D140053FF6905847465411069A580006A8BB40167AD480006BBFFFBA6073623000000FFFF3FF58880F4050000000000244022F8D000150014FFF8002D002BFFF000120018FFF800026D1C530069A5880901001438006300CB33FE5D14005FFFE907847465411069A580006A929F01679CB7FFF7020003E2074903000400000000003FF571BF170503F40401820189C80030A8000040244023F8D00009000800030012001000050007000A00030001A000280069A5881901001D0938006300CC33FE5D14005FFFCD85847465411069A600006A8E440167AD330006A7FFFEB300B41B0007E1FFF9000771C0598020CE30D7922000200543B6BFC035240025F8F000040004000000080009FFFF00310004000400000016E12A230069A60C5101000D0538005400CC33FE5D140050
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 0.0 
+Item: I030 (Time of Day)
+	ToD (Time of day): 129.4140625 
+Item: I070 (Plot Count Values)
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 15 
+	counter (Counter value): 1012 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 96 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 9 
+	counter (Counter value): 64 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 9 
+	counter (Counter value): 248 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 20 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 2 Sole SSR plots
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 768 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 256 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 4 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 4 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 768 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 768 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 2 Sole SSR plots
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 256 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 416 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 36 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 105 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 9 
+	counter (Counter value): 392 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 22 
+	counter (Counter value): 257 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 9 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 20 
+	counter (Counter value): 14 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 14 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 21 
+	counter (Counter value): 768 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 18 
+	counter (Counter value): 819 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 605 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 5 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 20 
+	counter (Counter value): 1023 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 26 
+	counter (Counter value): 261 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 116 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 25 
+	counter (Counter value): 321 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 4 
+	counter (Counter value): 105 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 9 
+	counter (Counter value): 384 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 106 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 2 Sole SSR plots
+	counter (Counter value): 948 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 359 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 11 
+	counter (Counter value): 328 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 6 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 14 
+	counter (Counter value): 1023 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 30 
+	counter (Counter value): 934 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 822 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 8 
+	counter (Counter value): 768 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 1023 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 15 
+	counter (Counter value): 1013 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 2 Sole SSR plots
+	counter (Counter value): 128 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 29 
+	counter (Counter value): 5 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 36 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 16 
+	counter (Counter value): 34 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 30 
+	counter (Counter value): 208 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 21 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 20 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 1016 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 45 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 43 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 1008 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 18 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 24 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 1016 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 2 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 27 
+	counter (Counter value): 284 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 20 
+	counter (Counter value): 768 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 26 
+	counter (Counter value): 421 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 2 Sole SSR plots
+	counter (Counter value): 9 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 256 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 5 
+	counter (Counter value): 56 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 99 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 203 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 12 
+	counter (Counter value): 1022 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 23 
+	counter (Counter value): 276 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 95 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 1001 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 900 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 29 
+	counter (Counter value): 101 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 16 
+	counter (Counter value): 272 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 26 
+	counter (Counter value): 421 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 26 
+	counter (Counter value): 658 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 7 
+	counter (Counter value): 769 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 25 
+	counter (Counter value): 924 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 13 
+	counter (Counter value): 1023 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 29 
+	counter (Counter value): 770 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 3 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 24 
+	counter (Counter value): 519 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 18 
+	counter (Counter value): 259 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 4 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 63 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 29 
+	counter (Counter value): 369 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 15 
+	counter (Counter value): 791 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 259 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 29 
+	counter (Counter value): 4 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 386 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 393 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 18 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 12 
+	counter (Counter value): 168 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 16 
+	counter (Counter value): 36 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 16 
+	counter (Counter value): 35 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 30 
+	counter (Counter value): 208 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 9 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 8 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 3 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 18 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 16 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 5 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 7 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 10 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 3 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 1 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 8 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 10 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 26 
+	counter (Counter value): 421 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 2 Sole SSR plots
+	counter (Counter value): 25 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 256 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 7 
+	counter (Counter value): 265 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 14 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 24 
+	counter (Counter value): 768 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 19 
+	counter (Counter value): 51 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 605 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 5 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 23 
+	counter (Counter value): 1023 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 19 
+	counter (Counter value): 389 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 116 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 25 
+	counter (Counter value): 321 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 4 
+	counter (Counter value): 105 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 9 
+	counter (Counter value): 512 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 106 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 3 Combined plots
+	counter (Counter value): 580 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 359 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 11 
+	counter (Counter value): 307 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 6 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 9 
+	counter (Counter value): 1023 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 691 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 180 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 6 
+	counter (Counter value): 768 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 993 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 1017 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 7 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 28 
+	counter (Counter value): 448 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 22 
+	counter (Counter value): 384 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 8 
+	counter (Counter value): 206 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 12 
+	counter (Counter value): 215 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 4 
+	counter (Counter value): 544 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 32 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 323 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 13 
+	counter (Counter value): 703 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 16 
+	counter (Counter value): 53 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 9 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 9 
+	counter (Counter value): 504 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 28 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 2 Sole SSR plots
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 2 Sole SSR plots
+	counter (Counter value): 511 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 31 
+	counter (Counter value): 768 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 12 
+	counter (Counter value): 256 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 0 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 5 
+	counter (Counter value): 737 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 10 
+	counter (Counter value): 547 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 105 
+	A (Aerial identification): 1 Counter for antenna 2
+	ident (Plot category identification code): 9 
+	counter (Counter value): 524 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 20 
+	counter (Counter value): 257 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 13 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 1 Sole primary plots
+	counter (Counter value): 312 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 84 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 204 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 12 
+	counter (Counter value): 1022 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 23 
+	counter (Counter value): 276 
+	A (Aerial identification): 0 Counter for antenna 1
+	ident (Plot category identification code): 0 
+	counter (Counter value): 80 
+
+Asterix record: 60 
+Len: 31
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 61 
+Len: 14
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 62 
+Len: 8
+CRC: D709EBB8
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 3C00380034008000
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 0.0 
+Item: I030 (Time of Day)
+	ToD (Time of day): 28672.40625 
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 1.0 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 0 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 63 
+Len: 9
+CRC: 90C7BE37
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 77006F003200430034
+Item: I000 (Message Type)
+	type (Message Type): 111 
+Item: I020 (Sector Number)
+	Azi (Antenna azimuth): 0.0 
+Item: I030 (Time of Day)
+	ToD (Time of day): 25600.5234375 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 0 
+	fx (Field extension): 0 End of Data Item
+Item: I060 (Station Processing Mode)
+	mode (Mode): 26 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 64 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 65 
+Len: 4
+CRC: 9D7A4585
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 0CF9C894
+Item: I041 (Antenna Rotation Speed)
+	RotS (Antenna rotation speed): 499.5625 
+Item: I050 (Station Configuration Status)
+	Stat (Status): 74 
+	fx (Field extension): 0 End of Data Item
+
+Asterix record: 66 
+Len: 1
+CRC: A505DF1B
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: 00
+
+Asterix record: 67 
+Len: 11
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 68 
+Len: 9
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 69 
+Len: 3
+CRC: 00000000
+Category: 2 (Transmission of Monoroadar Service Messages)
+Hexdata: None
+
+Asterix record: 70 
+Len: 29794
+CRC: 00000000
+Category: 132 ()
+Hexdata: None
+
+Asterix record: 71 
+Len: 63485
+CRC: 00000000
+Category: 255 ()
+Hexdata: None
+
+Asterix record: 72 
+Len: 35670
+CRC: 00000000
+Category: 186 ()
+Hexdata: None
+
+Asterix record: 73 
+Len: 2
+CRC: 00000000
+Category: 250 ()
+Hexdata: None
+
+Asterix record: 74 
+Len: 64765
+CRC: 00000000
+Category: 255 ()
+Hexdata: None
+
+Asterix record: 75 
+Len: 1
+CRC: 00000000
+Category: 4 (Safety Net Messages)
+Hexdata: None
+
+Asterix record: 76 
+Len: 2
+CRC: 7AB6E946
+Category: 4 (Safety Net Messages)
+Hexdata: 4026
+Item: I000 (Message Type)
+	MessageType (Message Type): 38 Conflicting ATC Clearances (CATC)
+
+Asterix record: 77 
+Len: 10
+CRC: D56B56D2
+Category: 4 (Safety Net Messages)
+Hexdata: F8F000060008FFFE000D
+Item: I010 (Data Source Identifier)
+	SAC (System Area Code): 240 
+Item: I010 (Data Source Identifier)
+	SIC (System Identification Code): 0 
+Item: I000 (Message Type)
+	MessageType (Message Type): 6 Clearance Level Adherence Monitor (CLAM)
+Item: I015 (SDPS Identifier)
+Item: I020 (Time of Message)
+	ToM (Time Of Message): 4607.984375 
+Item: I040 (Alert Identifier)
+	AlrtI (Alert Identifier): 13 
+
+Asterix record: 78 
+Len: 1
+CRC: A505DF1B
+Category: 4 (Safety Net Messages)
+Hexdata: 00
+
+Asterix record: 79 
+Len: 79
+CRC: 00000000
+Category: 4 (Safety Net Messages)
+Hexdata: None
