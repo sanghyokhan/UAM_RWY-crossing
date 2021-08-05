@@ -19,21 +19,24 @@ rwyY = arclen.*cos(az/180*pi);    % Y coordinate (m) from ICN center
 
 
 
-% load data
-DATAfolder = '../input/';
-FPfolder = [DATAfolder, 'ICN ACDM 2019/'];    % 한상혁 수정
-load([DATAfolder, 'IIS_Arr_2019.mat']);       % 한상혁 수정
-load([DATAfolder, 'IIS_Dep_2019.mat']);       % 한상혁 수정
-MLATfolder = [DATAfolder, 'MLAT/'];           % 한상혁 수정
+% load data -> 한상혁 수정
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+DATAfolder = '../input/';           
+FPfolder = [DATAfolder, 'ICN ACDM 2019/'];    
+load([DATAfolder, 'IIS_Arr_2019.mat']);       
+load([DATAfolder, 'IIS_Dep_2019.mat']);     
+MLATfolder = [DATAfolder, 'MLAT/'];          
 MLATlist = dir([MLATfolder, '*.csv']);
-flightplan_folder = '../input/';
+flightplan_folder = '../input/';   
 arrfp_data = readtable([flightplan_folder, 'arr_fp_20191222-20191228.csv'],...
-        'HeaderLines', 0, 'ReadVariableNames', 1, 'VariableNamingRule', 'preserve');    % 한상혁 수정
+        'HeaderLines', 0, 'ReadVariableNames', 1, 'VariableNamingRule', 'preserve');   
 depfp_data = readtable([flightplan_folder, 'dep_fp_20191222-20191228.csv'],...
-        'HeaderLines', 0, 'ReadVariableNames', 1, 'VariableNamingRule', 'preserve');    % 한상혁 수정
-arrfp_data.SDT = cellstr(arrfp_data.SDT);     % 한상혁 수정
-depfp_data.SDT = cellstr(depfp_data.SDT);     % 한상혁 수정
-
+        'HeaderLines', 0, 'ReadVariableNames', 1, 'VariableNamingRule', 'preserve');    
+metar_data = readtable([DATAfolder, 'metar_20191222-20191228.csv'],...
+        'HeaderLines', 0, 'ReadVariableNames', 1, 'VariableNamingRule', 'preserve');    
+arrfp_data.SDT = cellstr(arrfp_data.SDT);     
+depfp_data.SDT = cellstr(depfp_data.SDT);     
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 % global init
@@ -47,7 +50,10 @@ offLat = [];  % Wheel-off (Dep) latitude
 offLon = [];  % Wheel-off (Dep) longitude
 offRwy = [];  % Wheel-off (Dep) runway
 offDist = []; % Wheel-off (Dep) distance from runway threshold
-
+onID = [];    % 한상혁 수정
+offID = [];   % 한상혁 수정
+onTime = [];  % 한상혁 수정
+offTime = []; % 한상혁 수정
 
 
 
@@ -67,6 +73,7 @@ for fID = 1:length(MLATlist)        % 시간별로
     
     % Flight ID, Datetime , Latitude, Longitude, FL
     FltDT = datetime(MLATdata.TimeGet, 'InputFormat', 'yyyy.MM.dd HH:mm:ss.SSSSSS') + hours(9); % KST = UTC + 9
+    Flt_datetime = cellstr(FltDT);   % 한상혁 수정
     FltID = MLATdata.ModeSIdent;    % callsign
     uniID = unique(FltID);            
     FltLat = MLATdata.Latitude;
@@ -85,8 +92,8 @@ for fID = 1:length(MLATlist)        % 시간별로
     FltRwyLat = zeros(size(uniID));         % Latitude of take-off/landing point
     FltRwyLon = zeros(size(uniID));         % Longitude of take-off/landing point
     FltAC = cell(size(uniID));              % AC type
-
-    
+    Flt_time = cell(size(uniID));           % 한상혁 수정
+     
     
 
     for i=1:length(uniID)    % 한시간동안의 항적에서 각각의 c/s별로
@@ -121,6 +128,7 @@ for fID = 1:length(MLATlist)        % 시간별로
             end
             FltRwyLat(i) = FltLat(indID(indTO));
             FltRwyLon(i) = FltLon(indID(indTO));
+            Flt_time(i) = Flt_datetime(indID(indTO));    % 한상혁 수정
             
             % ARP와 사용활주로
             [arclen, az] = distance(icnLat, icnLon, FltRwyLat(i), FltRwyLon(i), wgs84Ellipsoid);
@@ -174,7 +182,7 @@ for fID = 1:length(MLATlist)        % 시간별로
                 FltRwyID(i) = depRwyID;
                 if ~isempty(indFP)
                     %%%%% FltAC{i} = IIS_Dep.TYP{indFP};
-                    FltAC{i} = depfp_data.TYP{indFP};
+                    FltAC{i} = depfp_data.TYP{indFP};    % 한상혁 수정
                 end
             end
         
@@ -190,6 +198,8 @@ for fID = 1:length(MLATlist)        % 시간별로
             end
             FltRwyLat(i) = FltLat(indID(indLD));
             FltRwyLon(i) = FltLon(indID(indLD));
+            Flt_time(i) = Flt_datetime(indID(indLD));    % 한상혁 수정
+
             
             [arclen, az] = distance(icnLat, icnLon, FltRwyLat(i), FltRwyLon(i), wgs84Ellipsoid);
             ldX = arclen*sin(az/180*pi);
@@ -211,7 +221,7 @@ for fID = 1:length(MLATlist)        % 시간별로
             end
             
             %%%%% indFP = intersect(find(strcmp(uniID(i), IIS_Arr.FLIGHT_3)), find(strcmp(datestr(FltDT(indID(indLD)), 'yyyy-mm-dd'), IIS_Arr.SDT)));
-            indFP = intersect(find(strcmp(uniID(i), arrfp_data.FLT)), find(strcmp(datestr(FltDT(indID(indLD)), 'yyyy-mm-dd'), arrfp_data.SDT)));
+            indFP = intersect(find(strcmp(uniID(i), arrfp_data.FLT)), find(strcmp(datestr(FltDT(indID(indLD)), 'yyyy-mm-dd'), arrfp_data.SDT)));    % 한상혁 수정
             if length(indFP)>1
                 disp(['[ARR] ', uniID{i}, ' - multiple info in FP']);
             else
@@ -238,7 +248,7 @@ for fID = 1:length(MLATlist)        % 시간별로
                 FltRwyID(i) = arrRwyID;
                 if ~isempty(indFP)
                     %%%%% FltAC{i} = IIS_Arr.TYP{indFP};                    
-                    FltAC{i} = arrfp_data.TYP{indFP};
+                    FltAC{i} = arrfp_data.TYP{indFP};    % 한상혁 수정
                 end
             end
         end
@@ -261,7 +271,23 @@ for fID = 1:length(MLATlist)        % 시간별로
     offLon = [offLon; FltRwyLon(indDep)];
     offRwy = [offRwy; FltRwyID(indDep)];
     offDist = [offDist; FltRwyDist(indDep)];
+    onID = [onID ; uniID(indArr)];             % 한상혁 수정
+    offID = [offID ; uniID(indDep)];           % 한상혁 수정
+    onTime = [onTime ; Flt_time(indArr)];      % 한상혁 수정
+    offTime = [offTime ; Flt_time(indDep)];    % 한상혁 수정
 end
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% save data 한상혁 수정
+arr_data = [num2cell(onTime), num2cell(onID), onAC, num2cell(onLat), num2cell(onLon), num2cell(onRwy), num2cell(onDist)];
+dep_data = [num2cell(offTime), num2cell(offID),offAC, num2cell(offLat), num2cell(offLon), num2cell(offRwy), num2cell(offDist)];
+arr_t = cell2table(arr_data);
+dep_t = cell2table(dep_data);
+writetable(arr_t,'arr_data.csv');
+writetable(dep_t,'dep_data.csv');
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -309,7 +335,7 @@ legend('RWY Threshold', 'Arrival', 'Departure');
 
 
 
-% others...
+% plot others...
 for i=1:6
     indOnRwy = find(onRwy==i);  % Arrival on runway i
     if ~isempty(indOnRwy)

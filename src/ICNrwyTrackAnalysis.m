@@ -19,7 +19,7 @@ rwyY = arclen.*cos(az/180*pi);    % Y coordinate (m) from ICN center
 
 
 
-% load data
+% data directory
 DATAfolder = '../input/';
 FPfolder = [DATAfolder, 'ICN ACDM 2019/'];    % 한상혁 수정
 load([DATAfolder, 'IIS_Arr_2019.mat']);       % 한상혁 수정
