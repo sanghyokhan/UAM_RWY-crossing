@@ -285,8 +285,8 @@ arr_data = [num2cell(onTime), num2cell(onID), onAC, num2cell(onLat), num2cell(on
 dep_data = [num2cell(offTime), num2cell(offID),offAC, num2cell(offLat), num2cell(offLon), num2cell(offRwy), num2cell(offDist)];
 arr_t = cell2table(arr_data);
 dep_t = cell2table(dep_data);
-writetable(arr_t,'arr_data.csv');
-writetable(dep_t,'dep_data.csv');
+writetable(arr_t,'../input/arr_data.csv');
+writetable(dep_t,'../input/dep_data.csv');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
